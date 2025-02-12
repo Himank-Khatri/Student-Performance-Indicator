@@ -4,7 +4,7 @@ from src.logger import logging
 def error_message_detail(error, error_detail:sys):
     _, _, exec_tb = error_detail.exc_info()
     filename = exec_tb.tb_frame.f_code.co_filename
-    error_message = f"Error in python script [{filename}] line number [{exec_tb.tb_lineno}] error message: {str(error)}"
+    error_message = f"Error in python script [{filename}] line number [{exec_tb.tb_lineno}] error message: {error}"
 
     return error_message
 
