@@ -15,10 +15,10 @@ def get_requirements(file_path:str) -> List[str]:
     return requirements 
 
 setup(
-    name='project_name',
+    name='student_performance_indicator',
     version='0.0.1',
-    author='author',
-    author_email='email',
+    author='Himank',
+    author_email='k.himank.14@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )
