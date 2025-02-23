@@ -36,7 +36,7 @@
  
 
   ```bash
-  git clone <repository\_url>
+  git clone [<repository\_url>](https://github.com/Himank-Khatri/Student-Performance-Indicator)
   ```
  
 
